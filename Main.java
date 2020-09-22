@@ -1,5 +1,10 @@
 import java.util.Random;
 
+/*
+Lab 4
+Partners:Nat Hauck and Brittany Posner
+Date:9/22/2020
+*/
 class Main {
 
   public static void main(String[] args) {
@@ -23,16 +28,14 @@ class Main {
       System.out.println(randomNumber);
     }
 
-    //Negative # loop , dont really need
-    while (randomNumber < 0) {
+    /*Negative # loop , dont really need
+      while (randomNumber < 0) {
       randomNumber++;
       System.out.println(randomNumber);
     }
+    */
 
        System.out.println("Blastoff!");
       
-
-      
-    
   }
 }
