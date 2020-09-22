@@ -20,6 +20,9 @@ class Main {
         System.out.println("Ahoy Matey's!");
       } else if (randomNumber> 25 && randomNumber < 42){
         System.out.println("Cannonball!");
+      } else if (randomNumber> 42){
+        System.out.println("Blastoff!");
+
       }
 
      //positive # loop
@@ -35,7 +38,6 @@ class Main {
     }
     */
 
-       System.out.println("Blastoff!");
       
   }
 }
