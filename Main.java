@@ -10,6 +10,13 @@ class Main {
     System.out.println("The Random Number is: " + randomNumber);
 
 
+    //if else
+      if(randomNumber <25){
+        System.out.println("Ahoy Matey's!");
+      } else if (randomNumber> 25 && randomNumber < 42){
+        System.out.println("Cannonball!");
+      }
+
      //positive # loop
     while (randomNumber > 0) {
       randomNumber -= 1;
@@ -22,13 +29,8 @@ class Main {
       System.out.println(randomNumber);
     }
 
-      //if else
-      if(randomNumber <25){
-        System.out.println("Ahoy Matey's!");
-      } else if (randomNumber> 25 && randomNumber < 42){
-        System.out.println("Cannonball!");
-      } else{System.out.println("Blastoff!");
-      }
+       System.out.println("Blastoff!");
+      
 
       
     
