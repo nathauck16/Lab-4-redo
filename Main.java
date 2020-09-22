@@ -9,7 +9,7 @@ class Main {
 
   public static void main(String[] args) {
 
-    //random number
+    //random number between 1 and 50
     Random r = new Random();
     int randomNumber = r.nextInt(50) + 1;
     System.out.println("The Random Number is: " + randomNumber);
@@ -30,14 +30,5 @@ class Main {
       randomNumber -= 1;
       System.out.println(randomNumber);
     }
-
-    /*Negative # loop , dont really need
-      while (randomNumber < 0) {
-      randomNumber++;
-      System.out.println(randomNumber);
-    }
-    */
-
-      
   }
 }
